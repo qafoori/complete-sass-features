@@ -7,40 +7,31 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-// h1 {
-//   color: $primary;
-//   margin-bottom: $base-margin;
-// }
-
 a {
-  // color: $secondary;
+  color: black;
   text-decoration: none;
 }
 
-// button {
-//   color: white;
-//   border: 0;
-//   background: $primary;
-//   border-radius: $base-border-radius;
-//   padding: $base-padding;
-// }
+body {
+  margin: 0;
+}
 
-// .error {
-//   color: $error;
-//   border-color: $error;
-//   border-style: solid;
-//   margin: $base-margin;
-//   padding: $base-padding;
-//   border-radius: $base-border-radius;
-//   border-width: $base-border-thickness;
-// }
+html,
+body {
+  scroll-behavior: smooth;
+}
 
-// .notification {
-//   color: $info;
-//   border-color: $info;
-//   border-style: solid;
-//   margin: $base-margin;
-//   padding: $base-padding;
-//   border-radius: $base-border-radius;
-//   border-width: $base-border-thickness;
-// }
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
