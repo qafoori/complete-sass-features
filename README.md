@@ -15,3 +15,6 @@ yarn global add gulp #or npm i -g gulp
 
 > This repository was created by following [this course](https://www.youtube.com/watch?v=_kqN4hl9bGc&list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb) on YouTube
 
+See it's DEMO
+1. [First page (Full usage)](https://complete-sass-features.vercel.app/index.html)
+2. [A landing page](https://complete-sass-features.vercel.app/home.html)
