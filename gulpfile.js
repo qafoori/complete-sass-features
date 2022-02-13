@@ -14,7 +14,7 @@ const compileStyles = () =>
     .pipe(purgeCSS({ content: [htmlSource] }))
     .pipe(cleanCSS({ compatibility: 'ie8' }))
     .pipe(sourcemaps.write())
-    .pipe(dest('css'))
+    .pipe(dest('src/css'))
 
 const watchTask = () => watch([stylesSource, htmlSource], compileStyles)
 
